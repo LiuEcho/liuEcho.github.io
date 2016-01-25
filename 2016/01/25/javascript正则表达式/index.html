@@ -94,7 +94,7 @@
         <h1>javascript正则表达式</h1>
         
         <div class="time-info">
-发表于:<time datetime="2016-01-25T02:34:32.000Z" itemprop="datePublished">2016-01-25</time>，更新于:<time datetime="2016-01-25T05:44:03.311Z" itemprop="dateModified">2016-01-25</time>，By <a href="http://liuecho.me" title="Liu Chang">Liu Chang</a>
+发表于:<time datetime="2016-01-25T02:34:32.000Z" itemprop="datePublished">2016-01-25</time>，更新于:<time datetime="2016-01-25T09:20:47.012Z" itemprop="dateModified">2016-01-25</time>，By <a href="http://liuecho.me" title="Liu Chang">Liu Chang</a>
         </div>
         
         <div class="post-body-inner">
@@ -509,19 +509,8 @@
 <td style="text-align:center">为表达式后面的部分改变处理选项</td>
 </tr>
 <tr>
-<td>`(?(exp)yes</td>
-<td style="text-align:center">no)`</td>
-<td>把exp当作零宽正向先行断言，如果在这个位置能匹配，使用yes作为此组</td>
-<td>的表达式；否则使用no</td>
-</tr>
-<tr>
 <td>(?(exp)yes)</td>
 <td style="text-align:center">同上，只是使用空表达式作为no</td>
-</tr>
-<tr>
-<td>`(?(name)yes</td>
-<td style="text-align:center">no)`</td>
-<td>如果命名为name的组捕获到了内容，使用yes作为表达式；否则使用no</td>
 </tr>
 <tr>
 <td>(?(name)yes)</td>
@@ -529,6 +518,7 @@
 </tr>
 </tbody>
 </table>
+<p>(?(exp)yes|no)    把exp当作零宽正向先行断言，如果在这个位置能匹配，使用yes作为此组|的表达式；否则使用no<br>(?(name)yes|no)    如果命名为name的组捕获到了内容，使用yes作为表达式；否则使用no</p>
 <p>转载说明<br>版本：v2.33 (2013-1-10) 作者：deerchao<br><a href="http://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="external">正则表达式30分钟入门教程</a></p>
 
 
